@@ -68,9 +68,5 @@ create table booking(
 	customer_SSN varchar(50) not null,
 	booking_time time not null,
 	already_pay boolean not null,
-	primary key (booking_id),
-	foreign key (hotel_id) references hotel(hotel_id),
-	foreign key (room_id) references room(room_id),
-	foreign key (hotel_chian_name) references hotel_chain(chain_name),
-	foreign key (customer_SSN) references customer(customer_SSN)
+	primary key (booking_id)
 );
