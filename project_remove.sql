@@ -1,3 +1,4 @@
+set seach_path 'ehotel'
 drop table hotel cascade; 
 drop table room cascade; 
 drop table employee cascade; 
